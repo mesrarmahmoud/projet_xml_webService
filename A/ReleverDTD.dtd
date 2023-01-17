@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT relever (dateRelever,solde,operations+) >
+<!ELEMENT operations (operation+) >
+<!ELEMENT dateRelever ANY >
+<!ELEMENT solde ANY >
+<!ELEMENT  operation EMPTY >
+
+<!ATTLIST relever 
+    RIB NMTOKEN #REQUIRED>
+    
+<!ATTLIST operations  
+    dateDebut CDATA #REQUIRED
+    dateFin CDATA #REQUIRED>
+    
+<!ATTLIST operation 
+        type (CREDIT|DEBIT) "DEBIT"
+        date CDATA #REQUIRED
+        montant NMTOKEN #REQUIRED
+        description CDATA #IMPLIED
+    >
+    

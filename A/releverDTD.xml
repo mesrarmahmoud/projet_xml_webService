@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relever SYSTEM "ReleverDTD.dtd">
+<?xml-stylesheet type="text/xsl" href="relever1.xsl"?>
+<relever RIB="2345566443322345">
+    <dateRelever>2021-11-10</dateRelever>
+    <solde>14500</solde>
+    <operations dateDebut="2021-01-01" dateFin="2021-01-30">
+        <operation type="CREDIT" date="2021-01-11" montant="9000" description="Virement espece" />
+        <operation type="DEBIT" date="2021-01-11" montant="3400" description="cheque gichet" />
+        <operation type="DEBIT" date="2021-01-11" montant="2000" description="Prélevement assurence"/>
+        <operation type="CREDIT" date="2021-01-11" montant="1000" description="Virement.."/>
+    </operations>
+</relever>
