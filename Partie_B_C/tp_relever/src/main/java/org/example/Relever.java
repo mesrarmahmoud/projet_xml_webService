@@ -1,6 +1,5 @@
 package org.example;
 
-import jakarta.jws.WebService;
 import jakarta.xml.bind.annotation.*;
 
 import java.util.ArrayList;
