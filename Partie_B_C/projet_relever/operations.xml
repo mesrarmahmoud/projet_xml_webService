@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<operations dateDebut="3921-02-01T00:00:00+01:00" dateFin="3921-03-02T00:00:00+01:00">
-    <listOperations type="DEBIT" date="2023-01-16T23:47:24.975+01:00" montant="3400.0" description="description 1"/>
-    <listOperations type="CREDIT" date="2023-01-16T23:47:24.975+01:00" montant="3400.0" description="description 2"/>
-</operations>
